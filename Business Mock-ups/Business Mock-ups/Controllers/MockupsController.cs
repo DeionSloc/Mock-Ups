@@ -16,8 +16,24 @@ public class MockupsController : Controller
     {
         return View();
     }
-    
-       [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+        public IActionResult Finance()
+    {
+        return View();
+    }
+
+    public IActionResult Body()
+    {
+        return View();
+    }
+
+    public IActionResult Mind()
+    {
+        return View();
+    }
+
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
