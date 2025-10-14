@@ -35,6 +35,11 @@ img {
   height: auto;
 }
 
-.finance-container{
+.finance{
   background-color: #ffe4c4;
+}
+
+.finance-info{
+  width: 360px;
+  height: auto;
 }
